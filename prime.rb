@@ -1,7 +1,7 @@
 def prime?(integer)
   if integer >= 2
   (2..integer-1).all? do |x|
-    number % x ! = 0
+    integer % x ! = 0
 else
   return false
 end
